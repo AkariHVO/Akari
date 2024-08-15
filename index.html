@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./output.css" rel="stylesheet">
-    <link href="./utilities.css" rel="stylesheet">
+    <link href="./src/output.css" rel="stylesheet">
+    <link href="./src/utilities.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <style>
       body {
@@ -25,8 +25,8 @@
       <div class="tlw-mb-[80px] tlw-relative">
         <div class="tlw-w-[100%] tlw-min-h-[100vh]">
           <picture class="tlw-absolute tlw-w-[100%] tlw-h-[100%] tlw-top-[0] tlw-left-[0] tlw-z-[0]">
-            <source media="(min-width: 1220px)" srcset="./assets/perrito.jpg">
-            <img class="tlw-w-[100%] tlw-h-[100%] tlw-object-cover tlw-rounded-b-[3rem]" src="./assets/perrito.jpg" alt="Perrito">
+            <source media="(min-width: 1220px)" srcset="./src/assets/perrito.jpg">
+            <img class="tlw-w-[100%] tlw-h-[100%] tlw-object-cover tlw-rounded-b-[3rem]" src="./src/assets/perrito.jpg" alt="Perrito">
           </picture>
         </div>
         <div class="tlw-absolute tlw-w-[100%] tlw-h-[100%] tlw-bottom-[0%] tlw-left-[0px]">
@@ -51,7 +51,7 @@
                     <div href="{{ block.link }}" class="tlw-group/item">
                       <div class="tlw-absolute tlw-w-[100%] tlw-h-[100%] tlw-left-0 tlw-bg-gradient-to-t tlw-from-[#00000080] tlw-via-transparent tlw-via-70% tlw-to-transparent tlw-z-[1]"></div>
                       <h2 class="tlw-text-[2rem] tlw-absolute tlw-w-[100%] tlw-h-[100%] tlw-p-[1.8rem] tlw-grid tlw-items-center tlw-text-center tlw-text-[#ffffff] tlw-drop-shadow tlw-z-[1] group-hover/item:-tlw-z-[1]"><strong>Anatomía y Fisiología Animal</strong></h2>
-                      <img loading="lazy" class="tlw-w-[100%] tlw-h-[100%] tlw-z-[-2] tlw-object-cover" src="./assets/anatomia.jpg" alt="anatomia">
+                      <img loading="lazy" class="tlw-w-[100%] tlw-h-[100%] tlw-z-[-2] tlw-object-cover" src="./src/assets/anatomia.jpg" alt="anatomia">
                       <div class="tlw-z-[1] tlw-absolute tlw-bg-[#00000099] tlw-w-[100%] tlw-h-[100%]  tlw-top-[0] tlw-flex tlw-flex-col tlw-justify-center tlw-opacity-[0] group-hover/item:tlw-opacity-[1] tlw-transition tlw-duration-300">
                         <h2 class=" tlw-text-[1.5rem] tlw-text-[#BFF1CE] tlw-p-[1rem]">Estudio de la estructura y función de los sistemas del cuerpo animal, esencial para entender cómo funcionan los órganos y sistemas y para diagnosticar enfermedades.</h2>
                       </div>
@@ -63,7 +63,7 @@
                     <div href="{{ block.link }}" class="tlw-group/item">
                       <div class="tlw-absolute tlw-w-[100%] tlw-h-[100%] tlw-left-0 tlw-bg-gradient-to-t tlw-from-[#00000080] tlw-via-transparent tlw-via-70% tlw-to-transparent tlw-z-[1]"></div>
                       <h2 class="tlw-text-[2rem] tlw-absolute tlw-w-[100%] tlw-h-[100%] tlw-p-[1.8rem] tlw-grid tlw-items-center tlw-text-center tlw-text-[#ffffff] tlw-drop-shadow-md tlw-z-[1] group-hover/item:-tlw-z-[1]"><strong>Comportamiento Animal</strong></h2>
-                      <img loading="lazy" class="tlw-w-[100%] tlw-h-[100%] tlw-z-[-2] tlw-object-cover" src="./assets/comportamiento.webp" alt="anatomia">
+                      <img loading="lazy" class="tlw-w-[100%] tlw-h-[100%] tlw-z-[-2] tlw-object-cover" src="./src/assets/comportamiento.webp" alt="anatomia">
                       <div class="tlw-z-[1] tlw-absolute tlw-bg-[#00000099] tlw-w-[100%] tlw-h-[100%]  tlw-top-[0] tlw-flex tlw-flex-col tlw-justify-center tlw-opacity-[0] group-hover/item:tlw-opacity-[1] tlw-transition tlw-duration-300">
                         <h2 class=" tlw-text-[1.5rem] tlw-text-[#BFF1CE] tlw-p-[1rem]">Estudio de las conductas normales y anormales en animales, y cómo el comportamiento puede influir en su salud y bienestar.</h2>
                       </div>
@@ -75,7 +75,7 @@
                     <div href="{{ block.link }}" class="tlw-group/item">
                       <div class="tlw-absolute tlw-w-[100%] tlw-h-[100%] tlw-left-0 tlw-bg-gradient-to-t tlw-from-[#00000080] tlw-via-transparent tlw-via-70% tlw-to-transparent tlw-z-[1]"></div>
                       <h2 class="tlw-text-[2rem] tlw-absolute tlw-w-[100%] tlw-h-[100%] tlw-p-[1.8rem] tlw-grid tlw-items-center tlw-text-center tlw-text-[#ffffff] tlw-drop-shadow-md tlw-z-[1] group-hover/item:-tlw-z-[1]"><strong>Microbiología y Parasitología</strong></h2>
-                      <img loading="lazy" class="tlw-w-[100%] tlw-h-[100%] tlw-z-[-2] tlw-object-cover" src="./assets/giardia.jpg" alt="anatomia">
+                      <img loading="lazy" class="tlw-w-[100%] tlw-h-[100%] tlw-z-[-2] tlw-object-cover" src="./src/assets/giardia.jpg" alt="anatomia">
                       <div class="tlw-z-[1] tlw-absolute tlw-bg-[#00000099] tlw-w-[100%] tlw-h-[100%]  tlw-top-[0] tlw-flex tlw-flex-col tlw-justify-center tlw-opacity-[0] group-hover/item:tlw-opacity-[1] tlw-transition tlw-duration-300">
                         <h2 class=" tlw-text-[1.5rem] tlw-text-[#BFF1CE] tlw-p-[1rem]">Estudio de microorganismos (bacterias, virus, hongos) y parásitos que afectan a los animales, incluyendo su diagnóstico y tratamiento.</h2>
                       </div>
@@ -87,7 +87,7 @@
                     <div href="{{ block.link }}" class="tlw-group/item">
                       <div class="tlw-absolute tlw-w-[100%] tlw-h-[100%] tlw-left-0 tlw-bg-gradient-to-t tlw-from-[#00000080] tlw-via-transparent tlw-via-70% tlw-to-transparent tlw-z-[1]"></div>
                       <h2 class="tlw-text-[2rem] tlw-absolute tlw-w-[100%] tlw-h-[100%] tlw-p-[1.8rem] tlw-grid tlw-items-center tlw-text-center tlw-text-[#ffffff] tlw-drop-shadow-md tlw-z-[1] group-hover/item:-tlw-z-[1]"><strong>Epidemiología y Salud Pública</strong></h2>
-                      <img loading="lazy" class="tlw-w-[100%] tlw-h-[100%] tlw-z-[-2] tlw-object-cover" src="./assets/rabia.avif" alt="anatomia">
+                      <img loading="lazy" class="tlw-w-[100%] tlw-h-[100%] tlw-z-[-2] tlw-object-cover" src="./src/assets/rabia.avif" alt="anatomia">
                       <div class="tlw-z-[1] tlw-absolute tlw-bg-[#00000099] tlw-w-[100%] tlw-h-[100%]  tlw-top-[0] tlw-flex tlw-flex-col tlw-justify-center tlw-opacity-[0] group-hover/item:tlw-opacity-[1] tlw-transition tlw-duration-300">
                         <h2 class=" tlw-text-[1.5rem] tlw-text-[#BFF1CE] tlw-p-[1rem]">Estudio de la distribución y control de enfermedades en poblaciones animales y su impacto en la salud humana, incluyendo la prevención de enfermedades zoonóticas.</h2>
                       </div>
@@ -99,7 +99,7 @@
                     <div href="{{ block.link }}" class="tlw-group/item">
                       <div class="tlw-absolute tlw-w-[100%] tlw-h-[100%] tlw-left-0 tlw-bg-gradient-to-t tlw-from-[#00000080] tlw-via-transparent tlw-via-70% tlw-to-transparent tlw-z-[1]"></div>
                       <h2 class="tlw-text-[2rem] tlw-absolute tlw-w-[100%] tlw-h-[100%] tlw-p-[1.8rem] tlw-grid tlw-items-center tlw-text-center tlw-text-[#ffffff] tlw-drop-shadow-md tlw-z-[1] group-hover/item:-tlw-z-[1]"><strong>Nutrición Animal</strong></h2>
-                      <img loading="lazy" class="tlw-w-[100%] tlw-h-[100%] tlw-z-[-2] tlw-object-cover" src="./assets/nutricion_animal.jpg" alt="anatomia">
+                      <img loading="lazy" class="tlw-w-[100%] tlw-h-[100%] tlw-z-[-2] tlw-object-cover" src="./src/assets/nutricion_animal.jpg" alt="anatomia">
                       <div class="tlw-z-[1] tlw-absolute tlw-bg-[#00000099] tlw-w-[100%] tlw-h-[100%]  tlw-top-[0] tlw-flex tlw-flex-col tlw-justify-center tlw-opacity-[0] group-hover/item:tlw-opacity-[1] tlw-transition tlw-duration-300">
                         <h2 class=" tlw-text-[1.5rem] tlw-text-[#BFF1CE] tlw-p-[1rem]">Ciencia que estudia las necesidades dietéticas de los animales y cómo una dieta adecuada contribuye a la salud y el bienestar.</h2>
                       </div>
@@ -129,7 +129,7 @@
               </div>
             </div>
             <div class="tlw-relative tlw-bg-[#A8E6CE] tlw-rounded-[100%] tlw-w-[100%] tlw-h-[100%] tlw-grid tlw-items-end tlw-circled after:tlw-w-[86%] after:tlw-h-[0] after:tlw-pb-[86%] after:tlw-relative after:tlw-bottom-[1.857rem] after:tlw-translate-y-0 after:tlw-top-[auto] tlw-justify-items-center">
-              <img class="tlw-absolute tlw-left-[19%] tlw-bottom-[0%] lg:tlw-left-[26%] lg:tlw-bottom-[10%] tlw-z-[1] tlw-w-[60%] lg:tlw-w-[50%]" src="./assets/logo-unam.png" alt="{{ shop.name }}">
+              <img class="tlw-absolute tlw-left-[19%] tlw-bottom-[0%] lg:tlw-left-[26%] lg:tlw-bottom-[10%] tlw-z-[1] tlw-w-[60%] lg:tlw-w-[50%]" src="./src/assets/logo-unam.png" alt="{{ shop.name }}">
             </div>
           </div>
           <div class="tlw-bg-black tlw-absolute tlw-w-[100%] tlw-h-[100%] tlw-top-[0%] tlw-left-[0%] tlw-z-[-2]"></div>
@@ -150,35 +150,35 @@
                 <div class="tlw-block xsm:tlw-w-[30rem] lg:tlw-w-[50.9rem] xsm:tlw-mr-[1.62rem] md:tlw-mr-[3.1rem] 2xl:tlw-mr-[6.25rem] tlw-mr-[3.1rem] tlw-min-h-[100%] tlw-pb-[1rem] lg:tlw-pb-[3rem]">
                   <div class="tlw-relative xsm:tlw-h-[18.75rem] lg:tlw-h-[29rem]">
                     <a href="#" class="tlw-absolute tlw-w-[100%] tlw-h-[100%] tlw-left-0 tlw-bg-gradient-to-t tlw-from-[#00000080] tlw-via-transparent tlw-via-70% tlw-to-transparent tlw-z-[1]"></a>
-                      <img class="tlw-absolute tlw-w-full tlw-h-full tlw-object-cover tlw-object-top" src="./assets/cerebro.jpg" alt="kirby">
+                      <img class="tlw-absolute tlw-w-full tlw-h-full tlw-object-cover tlw-object-top" src="./src/assets/cerebro.jpg" alt="kirby">
                     </a>
                   </div>
                 </div>
                 <div class="tlw-block xsm:tlw-w-[30rem] lg:tlw-w-[50.9rem] xsm:tlw-mr-[1.62rem] md:tlw-mr-[3.1rem] 2xl:tlw-mr-[6.25rem] tlw-mr-[3.1rem] tlw-min-h-[100%] tlw-pb-[1rem] lg:tlw-pb-[3rem]">
                   <div class="tlw-relative xsm:tlw-h-[18.75rem] lg:tlw-h-[29rem]">
                     <a href="#" class="tlw-absolute tlw-w-[100%] tlw-h-[100%] tlw-left-0 tlw-bg-gradient-to-t tlw-from-[#00000080] tlw-via-transparent tlw-via-70% tlw-to-transparent tlw-z-[1]"></a>
-                      <img class="tlw-absolute tlw-w-full tlw-h-full tlw-object-cover tlw-object-top" src="./assets/Vacas_FESC.JPG" alt="kirby">
+                      <img class="tlw-absolute tlw-w-full tlw-h-full tlw-object-cover tlw-object-top" src="./src/assets/Vacas_FESC.JPG" alt="kirby">
                     </a>
                   </div>
                 </div>
                 <div class="tlw-block xsm:tlw-w-[30rem] lg:tlw-w-[50.9rem] xsm:tlw-mr-[1.62rem] md:tlw-mr-[3.1rem] 2xl:tlw-mr-[6.25rem] tlw-mr-[3.1rem] tlw-min-h-[100%] tlw-pb-[1rem] lg:tlw-pb-[3rem]">
                   <div class="tlw-relative xsm:tlw-h-[18.75rem] lg:tlw-h-[29rem]">
                     <a href="#" class="tlw-absolute tlw-w-[100%] tlw-h-[100%] tlw-left-0 tlw-bg-gradient-to-t tlw-from-[#00000080] tlw-via-transparent tlw-via-70% tlw-to-transparent tlw-z-[1]"></a>
-                      <img class="tlw-absolute tlw-w-full tlw-h-full tlw-object-cover tlw-object-top" src="./assets/caballos.jpg" alt="kirby">
+                      <img class="tlw-absolute tlw-w-full tlw-h-full tlw-object-cover tlw-object-top" src="./src/assets/caballos.jpg" alt="kirby">
                     </a>
                   </div>
                 </div>
                 <div class="tlw-block xsm:tlw-w-[30rem] lg:tlw-w-[50.9rem] xsm:tlw-mr-[1.62rem] md:tlw-mr-[3.1rem] 2xl:tlw-mr-[6.25rem] tlw-mr-[3.1rem] tlw-min-h-[100%] tlw-pb-[1rem] lg:tlw-pb-[3rem]">
                   <div class="tlw-relative xsm:tlw-h-[18.75rem] lg:tlw-h-[29rem]">
                     <a href="#" class="tlw-absolute tlw-w-[100%] tlw-h-[100%] tlw-left-0 tlw-bg-gradient-to-t tlw-from-[#00000080] tlw-via-transparent tlw-via-70% tlw-to-transparent tlw-z-[1]"></a>
-                      <img class="tlw-absolute tlw-w-full tlw-h-full tlw-object-cover tlw-object-top" src="./assets/hospital.jpeg" alt="kirby">
+                      <img class="tlw-absolute tlw-w-full tlw-h-full tlw-object-cover tlw-object-top" src="./src/assets/hospital.jpeg" alt="kirby">
                     </a>
                   </div>
                 </div>
                 <div class="tlw-block xsm:tlw-w-[30rem] lg:tlw-w-[50.9rem] xsm:tlw-mr-[1.62rem] md:tlw-mr-[3.1rem] 2xl:tlw-mr-[6.25rem] tlw-mr-[3.1rem] tlw-min-h-[100%] tlw-pb-[1rem] lg:tlw-pb-[3rem]">
                   <div class="tlw-relative xsm:tlw-h-[18.75rem] lg:tlw-h-[29rem]">
                     <a href="#" class="tlw-absolute tlw-w-[100%] tlw-h-[100%] tlw-left-0 tlw-bg-gradient-to-t tlw-from-[#00000080] tlw-via-transparent tlw-via-70% tlw-to-transparent tlw-z-[1]"></a>
-                      <img class="tlw-absolute tlw-w-full tlw-h-full tlw-object-cover tlw-object-top" src="./assets/cabra.jpg" alt="kirby">
+                      <img class="tlw-absolute tlw-w-full tlw-h-full tlw-object-cover tlw-object-top" src="./src/assets/cabra.jpg" alt="kirby">
                     </a>
                   </div>
                 </div>
@@ -191,8 +191,8 @@
     <section>
       <div class="tlw-bg-slate-500 tlw-w-[100%] tlw-h-[100%] tlw-relative">
         <picture class="tlw-absolute tlw-w-[100%] tlw-h-[100%] tlw-top-[0] tlw-left-[0] tlw-z-[0]">
-          <source media="(min-width: 1220px)" srcset="./assets/animales.jpg">
-          <img class="tlw-w-[100%] tlw-h-[100%] tlw-object-cover" src="./assets/animales.jpg" alt="{{ blog.title }}">
+          <source media="(min-width: 1220px)" srcset="./src/assets/animales.jpg">
+          <img class="tlw-w-[100%] tlw-h-[100%] tlw-object-cover" src="./src/assets/animales.jpg" alt="{{ blog.title }}">
         </picture>
         <div class="tlw-relative tlw-z-[1] tlw-h-[100%] tlw-container-custom tlw-content-end tlw-py-[5rem] lg:tlw-py-[11.43rem] tlw-flex tlw-items-center tlw-justify-center">
           <div class="tlw-bg-[#F3F3F3] tlw-flex tlw-flex-col tlw-gap-[40px] tlw-items-center tlw-rounded-[1.25rem] tlw-p-[2.5rem] lg:tlw-px-[5.68rem] lg:tlw-py-[3.81rem] tlw-shadow-lg">
