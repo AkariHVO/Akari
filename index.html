@@ -19,6 +19,7 @@
         overflow-x: hidden;
       }
     </style>
+    <script src="./main.js"></script>
   </head>
   <body>
     <section>
@@ -32,7 +33,7 @@
         <div class="tlw-absolute tlw-w-[100%] tlw-h-[100%] tlw-bottom-[0%] tlw-left-[0px]">
           <div class="tlw-container-custom tlw-h-[100vh] tlw-flex tlw-items-center tlw-mt-[3rem]">
             <div class="tlw-flex tlw-flex-col lg:tlw-w-[50%] tlw-p-[1rem] tlw-gap-[1rem]">
-              <h1 class="tlw-text-[2rem] tlw-font-bold tlw-text-[#F3FFD2] tlw-italic">“La Medicina cura al hombre, la Medicina Veterinaria cura a la humanidad”</h1>
+              <h1 class="tlw-text-[2rem] tlw-font-bold tlw-text-[#F3FFD2] tlw-italic">“kkkkLa Medicina cura al hombre, la Medicina Veterinaria cura a la humanidad”</h1>
               <h2 class="tlw-text-[1.5rem] tlw-font-bold tlw-text-[#F3FFD2]">- Louis Pasteur</h2>
             </div>  
           </div>
@@ -205,6 +206,18 @@
             </div>
           </div>
         </div>  
+      </div>
+    </section>
+    <section>
+      <div class="tlw-container-custom ">
+        <div class="tlw-flex tlw-flex-col">
+          <main id="items" class="tlw-grid tlw-grid-cols-8"></main>
+          <aside class="tlw-grid tlw-grid-cols-4">
+            <h1>Carrito</h1>
+            <ul id="carrito"></ul>
+            <p>Total: <span id="total"></span></p>
+          </aside>
+        </div>
       </div>
     </section>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
